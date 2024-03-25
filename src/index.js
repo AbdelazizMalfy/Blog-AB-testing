@@ -1,6 +1,6 @@
 import { trackPageview, trackEvent, calculateCTR } from "./analytics-api.js";
 
-function getUserId() {
+const getUserId = () => {
   let userId = localStorage.getItem('userId');
 
   if (!userId) {
@@ -12,7 +12,7 @@ function getUserId() {
   return userId;
 }
 
-async function applyActiveTestConfig() {
+const applyActiveTestConfig = async () => {
   try {
   const response = await fetch('../config.json');
 
