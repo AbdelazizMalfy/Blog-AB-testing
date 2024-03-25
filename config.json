@@ -1,0 +1,9 @@
+{
+  "activeTest": "content-format-experiment",
+  "tests": {
+    "content-format-experiment": {
+      "variations": ["control", "test"],
+      "description": "An experiment to assess which article format better inspires readers to sign up for Blinkist."
+    }
+  }
+}
